@@ -1,7 +1,11 @@
-let bookName,bookAuthor,bookPublisher;
+//Exercise
+const price=10
+let product="Pen"
+const tax=1
 
-bookName="The Motorcycle Diaries";
-bookAuthor="Ernesto Che Guevara";
-bookPublisher="Verso Books";
+console.log("Product: "+product)
 
-console.log(bookName+"\n"+bookAuthor+"\n"+bookPublisher);
+let total=price+tax
+
+console.log("Total: Rs."+total)
+
