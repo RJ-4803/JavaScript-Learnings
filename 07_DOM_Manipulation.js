@@ -1,4 +1,4 @@
 let value=document.getElementById("title");
 
-console.log(value);
+console.log(value.textContent);
 value.textContent="Bye World"
